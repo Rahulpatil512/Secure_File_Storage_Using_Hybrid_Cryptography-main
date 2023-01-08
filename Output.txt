@@ -1,0 +1,27 @@
+This work presents a very good performance evaluation of using the LabVIEW 2016 program as a
+simulation design system to perform two effective comparison methods, as explained below:
+ The first comparison is made between the two evaluation methods: The LabVIEW 2016 simulation
+design program and advanced encryption package 2017 program. The LabVIEW 2016 simulation design
+provides a simple approach to calculate the values of encryption and decryption times for the chosen
+cryptographic algorithms (AES, DES, 3DES, RC2 and RSA). It had many advantages over the advanced
+encryption package 2017 program in both of the total time required to complete the encryption and
+decryption processes, and in calculating the evaluated time of a cryptographic algorithm during
+encryption and decryption processes, because it consumed lesser time, besides, the time of encryption
+and decryption processes can be achieved with an one run command, while in advanced encryption
+package 2017 program, it must apply two runs commands, one for encryption process and the other for
+decryption process.
+ In LabVIEW 2016 simulation design, the front panel window provided the full information about
+encryption and decryption processes including the value of execution time, original text file, the resulted
+encrypted text file, the resulted decrypted text file, the algorithmâ€™s key and its size. This facility is not
+found in advanced encryption package 2017 program.
+ Finally, In LabVIEW 2016 simulation design,et all the possible keyâ€™s values for any algorithm
+and this facility can achieve all the experimental statuses, while the advanced encryption package 2017
+program gave only limited keysâ€™ sizes for each algorithm.
+ The second compassion is among the five encryption algorithms. From the simulation results of
+LabVIEW 2016 program and the obtained results of advanced encryption package 2017 program, both,
+showed that the AES is the fastest encryption technique among the others in term and
+throughput and the lowest one in terms of power consumption, i.e. we can get a higher efficiency with
+lower time in spite of the design complexity of AES-256, because it can encrypt a 128-bit block cipher
+(which is the biggest block cipher for cryptographic algorithms) in 14 rounds only. DES had the second
+better performance during encryption and decryption processes, while 3DES and RC2 the same
+performance level. Finally, RSA had the lowest performance level in terms of speed and throughput.
